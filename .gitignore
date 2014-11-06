@@ -1,0 +1,17 @@
+cms_modules/
+
+node_modules
+npm-debug.log
+
+bower_components
+
+
+client/modules
+client/app
+
+
+.sass-cache
+
+app/scripts
+.tmp
+jenkins_home

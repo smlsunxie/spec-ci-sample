@@ -1,0 +1,17 @@
+jenkins:
+  image: jenkins:latest
+  volumes:
+    - ./jenkins_home:/var/jenkins_home
+
+
+  ports:
+    - "8080:8080"
+
+
+production:
+  image: smlsunxie/cms-env:latest
+  working_dir: /mobius_cms
+  command: ""
+
+  ports:
+    - "3000:3000"
