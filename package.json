@@ -79,7 +79,8 @@
     "vinyl-transform": "0.0.1",
     "gulp-uglify": "~1.0.1",
     "literalify": "~0.3.0",
-    "loopback-connector-rest": "~1.4.0"
+    "loopback-connector-rest": "~1.4.0",
+    "supertest": "~0.14.0"
   },
   "engines": {
     "node": ">=0.10.0"
