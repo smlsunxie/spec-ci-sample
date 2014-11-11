@@ -9,24 +9,4 @@ global.async = require('async')
 
 before (done) ->
   lt.beforeEach.withApp app
-  Plugin = app.models.Plugin
-  Route = app.models.Route
-
-  async.waterfall [
-
-    (done) ->
-      plugin = new Plugin({url: "git@github.com:smlsunxie/cms-plugin-sample.git", name: "cms-plugin-sample"})
-      Plugin.create plugin, (err, newPlugin) ->
-
-        return done(err)
-
-    (done) ->
-
-      plugin = new Plugin({url: "https://github.com/smlsunxie/cms-plugin-routeList.git", name: "cms-plugin-routeList"})
-      Plugin.create plugin, (err, newPlugin) ->
-
-        return done(err)
-
-  ], (error, result) ->
-    done()
-    return
+  done()

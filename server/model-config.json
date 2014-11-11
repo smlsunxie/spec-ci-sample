@@ -2,9 +2,6 @@
   "_meta": {
     "sources": ["../common/models"]
   },
-  "Todo": {
-    "dataSource": "db"
-  },
   "User": {
     "dataSource": "db"
   },
