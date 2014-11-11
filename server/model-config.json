@@ -1,6 +1,8 @@
 {
   "_meta": {
-    "sources": ["../common/models"]
+    "sources": [
+      "../common/models"
+    ]
   },
   "User": {
     "dataSource": "db"
@@ -20,6 +22,8 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "facebook": {
+    "dataSource": "rest"
   }
-
 }

@@ -1,10 +1,11 @@
 {
   "db": {
-
-    "defaultForType": "db",
-
     "name": "db",
+    "defaultForType": "db",
     "connector": "memory"
-
+  },
+  "rest": {
+    "name": "rest",
+    "connector": "rest"
   }
 }
