@@ -4,23 +4,15 @@ path = require('path');
 fs = require('fs');
 
 
-buildViewModules = (modules, callback) ->
+buildViewModules = (callback) ->
 
   console.log "=== buildViewModules ==="
-
-  modules = [] unless modules
-
 
   bundlePath = path.resolve(distPath, 'app.js');
   out = fs.createWriteStream(bundlePath);
 
   b = browserify();
-
   b.add("./app/scripts/app.js");
-
-  modules.forEach (module) ->
-    b.add(module);
-
 
   b.bundle()
   .on('error', ()->

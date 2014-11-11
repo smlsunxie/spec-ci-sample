@@ -4,5 +4,8 @@
   },
   "user": {
     "dataSource": "remote"
+  },
+  "facebook": {
+    "dataSource": "remote"
   }
 }

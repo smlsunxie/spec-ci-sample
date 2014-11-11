@@ -45,6 +45,9 @@ gulp.task "scripts", ["coffee"], ->
 
   gulp.src('app/src/**/*.js')
   .pipe(gulp.dest(distPath + "/scripts"))
+  .on("end", ()->
+      buildViewModules ()->
+  )
 
 
 gulp.task "lbclient", (done)->
