@@ -10,10 +10,10 @@ module.exports = function(Facebook) {
 
   Facebook.getFriends = function(userid, token, cb) {
 
-    FB.setAccessToken(token);
-    FB.api(userid + '/friends', function (res) {
-      return cb(null, res.data)
-    });
+
+    FB.getFriends(userid, token, function(error, friends){
+      return cb(null, friends)
+    })
 
 
   }

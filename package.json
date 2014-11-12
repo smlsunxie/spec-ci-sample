@@ -83,7 +83,8 @@
     "supertest": "~0.14.0",
     "fb": "~0.7.0",
     "lodash": "~2.4.1",
-    "chai-properties": "~1.1.0"
+    "chai-properties": "~1.1.0",
+    "facebook-helper": "0.0.1"
   },
   "engines": {
     "node": ">=0.10.0"
