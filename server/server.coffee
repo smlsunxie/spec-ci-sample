@@ -3,6 +3,8 @@ global.loopback = require("loopback")
 boot = require("loopback-boot")
 global.app = module.exports = loopback()
 
+global.FB = require("fb");
+
 # middleware
 app.use loopback.compress()
 

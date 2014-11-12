@@ -80,7 +80,10 @@
     "gulp-uglify": "~1.0.1",
     "literalify": "~0.3.0",
     "loopback-connector-rest": "~1.4.0",
-    "supertest": "~0.14.0"
+    "supertest": "~0.14.0",
+    "fb": "~0.7.0",
+    "lodash": "~2.4.1",
+    "chai-properties": "~1.1.0"
   },
   "engines": {
     "node": ">=0.10.0"
